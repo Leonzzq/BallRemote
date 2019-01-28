@@ -1,0 +1,27 @@
+PODS:
+  - BallPod (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BallPod (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BallPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BallPod: 785d61039e4a58e92a8618d6f6dcc078aa5b5256
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 89e2393c1ce0ef130a8b3f3e7c1414266b307790
+
+COCOAPODS: 1.5.3

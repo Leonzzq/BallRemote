@@ -1,0 +1,6 @@
+framework module Pods_BallPod_Tests {
+  umbrella header "Pods-BallPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
